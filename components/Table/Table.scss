@@ -1,0 +1,52 @@
+table {
+  border-spacing: 0;
+  border-collapse: separate;
+}
+td,
+th {
+  padding: 0;
+}
+table {
+  background-color: transparent;
+}
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777;
+  text-align: left;
+}
+th {
+  text-align: left;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  font-size: 13px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 10px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.table > thead > tr > th {
+  vertical-align: bottom;
+  background: rgba(0,0,0,.02);
+  border-bottom: 2px solid rgba(0,0,0,.1);
+  cursor: pointer;
+  .fa {
+    color: #777;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+}

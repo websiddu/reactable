@@ -1,0 +1,41 @@
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
+
+/*
+ * Scaffolding
+ * -------------------------------------------------------------------------- */
+
+$body-bg: #353743;
+$text-color: #EEE;
+$brand-color: #21ce99;
+
+/*
+ * Typography
+ * -------------------------------------------------------------------------- */
+
+$font-family-base: 'PT Sans', 'Helvetica', sans-serif;
+
+
+
+/*
+ * Typography
+ * -------------------------------------------------------------------------- */
+$table-cell-padding:            8px;
+$table-condensed-cell-padding:  5px;
+$table-bg:                      transparent;
+$table-bg-accent:               #f9f9f9;
+$table-bg-hover:                #f5f5f5;
+$table-bg-active:               $table-bg-hover;
+$table-border-color:            #ddd;
+
+/*
+ * Media queries breakpoints
+ * -------------------------------------------------------------------------- */
+
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
